@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket  = "atlantis-demo-202609 "
+    bucket  = "atlantis-demo-202609"
     key     = "aws/demo.tfstate"
     region  = "ap-northeast-1"
   }
