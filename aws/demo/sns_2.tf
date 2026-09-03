@@ -1,6 +1,6 @@
 resource "aws_sns_topic" "test-2" {
-  name = "topic-test-v2"
+  name = "topic-test-v2-2"
   tags = {
-    Name = "topic-test-v2"
+    Name = "topic-test-v2-2"
   }
 }
