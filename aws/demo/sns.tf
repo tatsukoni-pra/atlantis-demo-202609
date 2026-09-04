@@ -4,3 +4,4 @@ resource "aws_sns_topic" "test-1" {
     Name = "topic-test-v1-1"
   }
 }
+
